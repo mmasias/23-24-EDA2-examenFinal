@@ -1,4 +1,4 @@
-abstract class Ingrediente {
+abstract class Ingrediente extends Verificador{
     protected String nombre;
 
     public String describir() {

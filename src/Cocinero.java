@@ -10,6 +10,14 @@ class Cocinero extends Empleado {
         hamburguesa.agregarExtra(new Mayonesa("mucho"));
         hamburguesa.agregarExtra(new Huevo());
         this.tieneHamburguesa = true;
+
+        try {
+            System.out.println("VER: "+hamburguesa.getHash());    
+        } catch (Exception e) {
+            System.out.println(e.toString());
+        }
+
+
     }
 
     public Hamburguesa entregar() {

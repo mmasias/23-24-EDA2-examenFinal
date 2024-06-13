@@ -1,4 +1,4 @@
-class Hamburguesa {
+class Hamburguesa extends Verificador {
     private Pan[] panes;
     private Carne carne;
     private Extra[] extras;
