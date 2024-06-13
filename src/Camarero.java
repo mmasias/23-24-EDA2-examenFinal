@@ -1,5 +1,3 @@
-package src;
-
 class Camarero extends Empleado {
 
     public void recibir(Hamburguesa hamburguesa) {

@@ -1,5 +1,3 @@
-package src;
-
 class Restaurante {
 
     private void atender() {

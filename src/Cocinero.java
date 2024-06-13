@@ -1,5 +1,3 @@
-package src;
-
 class Cocinero extends Empleado {
 
     public void prepararHamburguesa() {

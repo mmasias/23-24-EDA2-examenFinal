@@ -1,5 +1,3 @@
-package src;
-
 abstract class Ingrediente {
     protected String nombre;
 

@@ -1,5 +1,3 @@
-package src;
-
 class Hamburguesa {
     private Pan[] panes;
     private Carne carne;
@@ -14,12 +12,8 @@ class Hamburguesa {
     }
 
     public void agregarExtra(Extra extra) {
-        if (extrasAgregados < extras.length) {
             extras[extrasAgregados] = extra;
             extrasAgregados++;
-        } else {
-            System.out.println("No se pueden agregar más extras.");
-        }
     }
 
     public void mostrar() {

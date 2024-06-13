@@ -1,4 +1,3 @@
-package src;
 abstract class Carne extends Ingrediente {
     private String coccion;
 

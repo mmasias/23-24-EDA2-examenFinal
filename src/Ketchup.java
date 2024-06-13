@@ -1,5 +1,5 @@
-package src;
 class Ketchup extends Salsa {
+    final String REPRESENTACION = " " + "ooO".repeat(4);
 
     public Ketchup(String cantidad) {
         super("Ketchup", cantidad);
@@ -7,6 +7,6 @@ class Ketchup extends Salsa {
 
     @Override
     public void mostrar() {
-        System.out.println(" " + "ooO".repeat(4));
+        System.out.println(REPRESENTACION);
     }
 }
