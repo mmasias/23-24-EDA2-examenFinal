@@ -4,7 +4,7 @@ El [pyRestaurante](https://github.com/mmasias/23-24-PRG2-examenFinal/blob/main/R
 
 El [código fuente presentado](/src/) cumple con los requisitos solicitados.
 
-- Parte 1 - Propuestas _in plan english_
+- Parte 1 - Propuestas _in plain english_
 - Parte 2 - Dev...
 
 ## Caso
